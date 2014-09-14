@@ -1,0 +1,810 @@
+# depslib dependency file v1.0
+1409569444 source:e:\study\summer-2014\btp-2\uav model\main.cpp
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<fstream>
+	"quad.hpp"
+	"terrain.hpp"
+	"functions.hpp"
+	"openGlStuff.hpp"
+	"simulator.hpp"
+
+983682186 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winerror.h
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341010370 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnterr.h
+
+1341010372 c:\program files (x86)\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1404547499 e:\study\summer-2014\btp-2\uav model\declare.cpp
+	<cmath>
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341010380 c:\program files (x86)\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1401281765 e:\study\summer-2014\btp-2\uav model\setuavparameters.cpp
+	<cmath>
+
+1404542249 source:e:\study\summer-2014\btp-2\uav model\setuavparameters.cpp
+
+1404543704 source:e:\study\summer-2014\btp-2\uav model\setautopilotgains.cpp
+
+1409757809 source:e:\study\summer-2014\btp-2\uav model\inituavstates.cpp
+	<cmath>
+	<stdlib.h>
+	<vector>
+	"initUavStates.hpp"
+
+1404543704 e:\study\summer-2014\btp-2\uav model\setautopilotgains.cpp
+
+1408279991 e:\study\summer-2014\btp-2\uav model\inituavstates.hpp
+	<vector>
+
+1403458986 e:\study\summer-2014\btp-2\uav model\trackuav.cpp
+
+1403458986 source:e:\study\summer-2014\btp-2\uav model\trackuav.cpp
+
+1404543988 e:\study\summer-2014\btp-2\uav model\uavdynamics.cpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1404542715 e:\study\summer-2014\btp-2\uav model\setuavparameters.hpp
+	<cmath>
+
+1404549376 e:\study\summer-2014\btp-2\uav model\uavdynamics.hpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1405432107 source:e:\study\summer-2014\btp-2\uav model\uavdynamics.cpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"lqruavHeadingRate.hpp"
+	<math.h>
+	"uavAutopilot.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1341010374 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1404548152 source:e:\study\summer-2014\btp-2\uav model\declare.cpp
+
+1408441535 source:e:\study\summer-2014\btp-2\uav model\lqruavheadingrate.cpp
+	<math.h>
+	"lqruavHeadingRate.hpp"
+	<cmath>
+	<iostream>
+
+1404548641 e:\study\summer-2014\btp-2\uav model\lqruavheadingrate.cpp
+	"initUavStates.hpp"
+	<math.h>
+
+1404549067 e:\study\summer-2014\btp-2\uav model\declare.hpp
+	<cmath>
+
+1404571388 e:\study\summer-2014\btp-2\uav model\lqruavheadingrate.hpp
+	"initUavStates.hpp"
+
+1404551640 source:e:\study\summer-2014\btp-2\uav model\uavautopilot.cpp
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavAutopilot.hpp"
+
+1404550222 e:\study\summer-2014\btp-2\uav model\uavautopilot.hpp
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1404569263 e:\study\summer-2014\btp-2\uav model\rk4.hpp
+
+1404575637 source:e:\study\summer-2014\btp-2\uav model\rk4.cpp
+
+1409322330 source:e:\study\summer-2014\btp-2\uav model\openglstuff.cpp
+
+1409363650 e:\study\summer-2014\btp-2\uav model\openglstuff.hpp
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"terrain.hpp"
+	"quad.hpp"
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1409362530 e:\study\summer-2014\btp-2\uav model\simulator.hpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavDynamics.hpp"
+
+1409757426 source:e:\study\summer-2014\btp-2\uav model\simulator.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<vector>
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavDynamics.hpp"
+
+1409321589 e:\study\summer-2014\btp-2\uav model\rrt.cpp
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<fstream>
+	"quad.hpp"
+	"terrain.hpp"
+	"functions.hpp"
+
+1409363015 e:\study\summer-2014\btp-2\uav model\quad.hpp
+	<vector>
+	"terrain.hpp"
+
+1409321316 e:\study\summer-2014\btp-2\uav model\terrain.hpp
+	"imageloader.h"
+	"vec3f.h"
+	<vector>
+	"imageloader.cpp"
+	"vec3f.cpp"
+
+1409233517 e:\study\summer-2014\btp-2\uav model\imageloader.h
+
+1219428388 e:\study\summer-2014\btp-2\uav model\vec3f.h
+	<iostream>
+
+1409323002 e:\study\summer-2014\btp-2\uav model\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1341010370 c:\program files (x86)\codeblocks\mingw\include\assert.h
+	<_mingw.h>
+
+1409230631 e:\study\summer-2014\btp-2\uav model\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1409321681 e:\study\summer-2014\btp-2\uav model\functions.hpp
+	"terrain.hpp"
+	"quad.hpp"
+
+1409321589 source:e:\study\summer-2014\btp-2\uav model\rrt.cpp
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<fstream>
+	"quad.hpp"
+	"terrain.hpp"
+	"functions.hpp"
+
+1409758347 source:e:\study\7th sem\btp-2\uav model\inituavstates.cpp
+	<cmath>
+	<stdlib.h>
+	<vector>
+	"initUavStates.hpp"
+
+1408279991 e:\study\7th sem\btp-2\uav model\inituavstates.hpp
+	<vector>
+
+1408441535 source:e:\study\7th sem\btp-2\uav model\lqruavheadingrate.cpp
+	<math.h>
+	"lqruavHeadingRate.hpp"
+	<cmath>
+	<iostream>
+
+1404571388 e:\study\7th sem\btp-2\uav model\lqruavheadingrate.hpp
+	"initUavStates.hpp"
+
+1409569444 source:e:\study\7th sem\btp-2\uav model\main.cpp
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<fstream>
+	"quad.hpp"
+	"terrain.hpp"
+	"functions.hpp"
+	"openGlStuff.hpp"
+	"simulator.hpp"
+
+1409363015 e:\study\7th sem\btp-2\uav model\quad.hpp
+	<vector>
+	"terrain.hpp"
+
+1409321316 e:\study\7th sem\btp-2\uav model\terrain.hpp
+	"imageloader.h"
+	"vec3f.h"
+	<vector>
+	"imageloader.cpp"
+	"vec3f.cpp"
+
+1409233517 e:\study\7th sem\btp-2\uav model\imageloader.h
+
+1219428388 e:\study\7th sem\btp-2\uav model\vec3f.h
+	<iostream>
+
+1409323002 e:\study\7th sem\btp-2\uav model\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1409230631 e:\study\7th sem\btp-2\uav model\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1409321681 e:\study\7th sem\btp-2\uav model\functions.hpp
+	"terrain.hpp"
+	"quad.hpp"
+
+1409363650 e:\study\7th sem\btp-2\uav model\openglstuff.hpp
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"terrain.hpp"
+	"quad.hpp"
+
+1409362530 e:\study\7th sem\btp-2\uav model\simulator.hpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavDynamics.hpp"
+
+1404542715 e:\study\7th sem\btp-2\uav model\setuavparameters.hpp
+	<cmath>
+
+1404543704 e:\study\7th sem\btp-2\uav model\setautopilotgains.cpp
+
+1404549376 e:\study\7th sem\btp-2\uav model\uavdynamics.hpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1409322330 source:e:\study\7th sem\btp-2\uav model\openglstuff.cpp
+
+1404543704 source:e:\study\7th sem\btp-2\uav model\setautopilotgains.cpp
+
+1404542249 source:e:\study\7th sem\btp-2\uav model\setuavparameters.cpp
+
+1409757426 source:e:\study\7th sem\btp-2\uav model\simulator.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<vector>
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavDynamics.hpp"
+
+1404551640 source:e:\study\7th sem\btp-2\uav model\uavautopilot.cpp
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavAutopilot.hpp"
+
+1404550222 e:\study\7th sem\btp-2\uav model\uavautopilot.hpp
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1405432107 source:e:\study\7th sem\btp-2\uav model\uavdynamics.cpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"lqruavHeadingRate.hpp"
+	<math.h>
+	"uavAutopilot.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1409758347 source:e:\study\7th sem\btp-2(cost)\uav model\inituavstates.cpp
+	<cmath>
+	<stdlib.h>
+	<vector>
+	"initUavStates.hpp"
+
+1408279991 e:\study\7th sem\btp-2(cost)\uav model\inituavstates.hpp
+	<vector>
+
+1408441535 source:e:\study\7th sem\btp-2(cost)\uav model\lqruavheadingrate.cpp
+	<math.h>
+	"lqruavHeadingRate.hpp"
+	<cmath>
+	<iostream>
+
+1404571388 e:\study\7th sem\btp-2(cost)\uav model\lqruavheadingrate.hpp
+	"initUavStates.hpp"
+
+1410582004 source:e:\study\7th sem\btp-2(cost)\uav model\main.cpp
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<fstream>
+	"quad.hpp"
+	"terrain.hpp"
+	"functions.hpp"
+	"openGlStuff.hpp"
+	"simulator.hpp"
+
+1410576935 e:\study\7th sem\btp-2(cost)\uav model\quad.hpp
+	<vector>
+	"terrain.hpp"
+
+1409321316 e:\study\7th sem\btp-2(cost)\uav model\terrain.hpp
+	"imageloader.h"
+	"vec3f.h"
+	<vector>
+	"imageloader.cpp"
+	"vec3f.cpp"
+
+1409233517 e:\study\7th sem\btp-2(cost)\uav model\imageloader.h
+
+1219428388 e:\study\7th sem\btp-2(cost)\uav model\vec3f.h
+	<iostream>
+
+1409323002 e:\study\7th sem\btp-2(cost)\uav model\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1409230631 e:\study\7th sem\btp-2(cost)\uav model\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1409321681 e:\study\7th sem\btp-2(cost)\uav model\functions.hpp
+	"terrain.hpp"
+	"quad.hpp"
+
+1410582092 e:\study\7th sem\btp-2(cost)\uav model\openglstuff.hpp
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"terrain.hpp"
+	"quad.hpp"
+
+1409362530 e:\study\7th sem\btp-2(cost)\uav model\simulator.hpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavDynamics.hpp"
+
+1404542715 e:\study\7th sem\btp-2(cost)\uav model\setuavparameters.hpp
+	<cmath>
+
+1404543704 e:\study\7th sem\btp-2(cost)\uav model\setautopilotgains.cpp
+
+1404549376 e:\study\7th sem\btp-2(cost)\uav model\uavdynamics.hpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1409322330 source:e:\study\7th sem\btp-2(cost)\uav model\openglstuff.cpp
+
+1404543704 source:e:\study\7th sem\btp-2(cost)\uav model\setautopilotgains.cpp
+
+1404542249 source:e:\study\7th sem\btp-2(cost)\uav model\setuavparameters.cpp
+
+1409757426 source:e:\study\7th sem\btp-2(cost)\uav model\simulator.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<vector>
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavDynamics.hpp"
+
+1404551640 source:e:\study\7th sem\btp-2(cost)\uav model\uavautopilot.cpp
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavAutopilot.hpp"
+
+1404550222 e:\study\7th sem\btp-2(cost)\uav model\uavautopilot.hpp
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1405432107 source:e:\study\7th sem\btp-2(cost)\uav model\uavdynamics.cpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"lqruavHeadingRate.hpp"
+	<math.h>
+	"uavAutopilot.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1409758347 source:e:\study\7th sem\btp-2(cost1)\uav model\inituavstates.cpp
+	<cmath>
+	<stdlib.h>
+	<vector>
+	"initUavStates.hpp"
+
+1408279991 e:\study\7th sem\btp-2(cost1)\uav model\inituavstates.hpp
+	<vector>
+
+1408441535 source:e:\study\7th sem\btp-2(cost1)\uav model\lqruavheadingrate.cpp
+	<math.h>
+	"lqruavHeadingRate.hpp"
+	<cmath>
+	<iostream>
+
+1404571388 e:\study\7th sem\btp-2(cost1)\uav model\lqruavheadingrate.hpp
+	"initUavStates.hpp"
+
+1409322330 source:e:\study\7th sem\btp-2(cost1)\uav model\openglstuff.cpp
+
+1404543704 source:e:\study\7th sem\btp-2(cost1)\uav model\setautopilotgains.cpp
+
+1404542249 source:e:\study\7th sem\btp-2(cost1)\uav model\setuavparameters.cpp
+
+1409757426 source:e:\study\7th sem\btp-2(cost1)\uav model\simulator.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<vector>
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavDynamics.hpp"
+
+1404542715 e:\study\7th sem\btp-2(cost1)\uav model\setuavparameters.hpp
+	<cmath>
+
+1404543704 e:\study\7th sem\btp-2(cost1)\uav model\setautopilotgains.cpp
+
+1404549376 e:\study\7th sem\btp-2(cost1)\uav model\uavdynamics.hpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1404551640 source:e:\study\7th sem\btp-2(cost1)\uav model\uavautopilot.cpp
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavAutopilot.hpp"
+
+1404550222 e:\study\7th sem\btp-2(cost1)\uav model\uavautopilot.hpp
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+
+1405432107 source:e:\study\7th sem\btp-2(cost1)\uav model\uavdynamics.cpp
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"lqruavHeadingRate.hpp"
+	<math.h>
+	"uavAutopilot.hpp"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1410654411 source:e:\study\7th sem\btp-2(cost1)\uav model\main.cpp
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<fstream>
+	"quad.hpp"
+	"terrain.hpp"
+	"functions.hpp"
+	"openGlStuff.hpp"
+	"simulator.hpp"
+
+1410576935 e:\study\7th sem\btp-2(cost1)\uav model\quad.hpp
+	<vector>
+	"terrain.hpp"
+
+1409321316 e:\study\7th sem\btp-2(cost1)\uav model\terrain.hpp
+	"imageloader.h"
+	"vec3f.h"
+	<vector>
+	"imageloader.cpp"
+	"vec3f.cpp"
+
+1409233517 e:\study\7th sem\btp-2(cost1)\uav model\imageloader.h
+
+1219428388 e:\study\7th sem\btp-2(cost1)\uav model\vec3f.h
+	<iostream>
+
+1409323002 e:\study\7th sem\btp-2(cost1)\uav model\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1409230631 e:\study\7th sem\btp-2(cost1)\uav model\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1409321681 e:\study\7th sem\btp-2(cost1)\uav model\functions.hpp
+	"terrain.hpp"
+	"quad.hpp"
+
+1410582092 e:\study\7th sem\btp-2(cost1)\uav model\openglstuff.hpp
+	<windows.h>
+	<iostream>
+	<stdlib.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	"terrain.hpp"
+	"quad.hpp"
+
+1409362530 e:\study\7th sem\btp-2(cost1)\uav model\simulator.hpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<iostream>
+	<stdio.h>
+	"setUavParameters.hpp"
+	"setAutopilotGains.cpp"
+	"initUavStates.hpp"
+	"uavDynamics.hpp"
+

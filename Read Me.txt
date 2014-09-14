@@ -1,0 +1,6 @@
+The UAV function here prunes the path based  on :
+1. It Finds the avg height of the part of the terrain from which the two nodes pass, whose connectivity we want to check
+2. If avg height is lesser than the height of both points, we move to next point, otherwise, add the point just before it and start looking from there.
+
+
+Blue line Shows the Pruned path, whereas black line shows the path obtained from RRT

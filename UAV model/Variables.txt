@@ -1,0 +1,42 @@
+simulateUav
+
+	Global Variables
+
+D		nUav = 1
+		uav = initUavStates() //Structure
+		
+D		Rmin = uav(1).V0/(12*pi/180)
+		
+D		dt 
+D		iUav 
+D		maneuver 
+D		hndl 
+D		W0 = [0 0]  //array
+		
+D		W1 = [800 800]  //array
+		
+	Other Variables
+		
+		theta
+		theta_c
+		Tsim -> Time of simulation
+		dt -> Time Step
+		maneuver = 'stline'  //Type of Maneuver
+		
+setUavParameters  -> .cpp
+	
+	Global Variables
+		 
+		C -> structure
+			Various parameters like mass, inertia, gravity etc.
+
+setAutopilotGains -> .cpp
+	
+	Global Variables
+	
+		pid -> structure
+
+initUavStates -> function in .cpp
+	//Initialize states of UAV
+	
+	returns structure
